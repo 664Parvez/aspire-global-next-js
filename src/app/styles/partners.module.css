@@ -1,0 +1,33 @@
+.first_section {
+    padding: 0 30px;
+    margin-top: 40px;
+}
+.first_section h1 span {
+    color: var(--main-red-color);
+    font-weight: 600;
+}
+.second_section {
+    padding: 0 30px;
+    margin-top: 40px;
+}
+.second_section .image {
+    border: 2px solid #444444;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .first_section {
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+    .second_section {
+        padding: 0 10px;
+        margin-top: 30px;
+    }
+    .second_section .image {
+        margin-bottom: 10px;
+    }
+}

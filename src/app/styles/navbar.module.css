@@ -1,0 +1,202 @@
+/* Top Bar */
+.top_bar {
+    padding: 5px 30px;
+    background-color: var(--main-blue-color);
+}
+.topbar_email ul li {
+    display: inline-block;
+}
+.topbar_email ul li a{
+    text-decoration: none;
+    color: var(--white-color) !important;
+}
+.top_social ul{
+    list-style: none;
+}
+.top_social ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+.top_social ul li a {
+    color: var(--white-color) !important;
+}
+
+/* Main Nav */
+.main_bar {
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    background-color: var(--off-white-color);
+    z-index: 999;
+}
+.navbar_logo {
+    padding: 0 20px;
+}
+.menu_items ul{
+    list-style: none;
+}
+.menu_items ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu_items ul li a {
+    color: var(--black-color);
+    padding: 30px 0;
+    font-weight: 500;
+}
+.menu_items ul li a:active {
+    color: var(--main-red-color) !important;
+}
+.nav_btn_option a{
+    background-color: var(--main-red-color);
+    color: var(--white-color) !important;
+}
+.nav_btn_option a:hover {
+    background-color: var(--main-blue-color);
+    color: var(--white-color) !important;
+}
+.company_dropdown {
+    background-color: var(--off-white-color);
+    padding: 10px 20px;
+    position: absolute;
+    width: 20%;
+    margin-top: 30px;
+    box-shadow: 2px 0px 8px var(--shadow-color);
+    display: none;
+    z-index: 1000;
+}
+.company_items li {
+    display: block !important;
+    margin: 10px 0 !important;
+    padding: 10px 0 !important;
+}
+.company_items li:hover a {
+    padding: 0 !important;
+    color: var(--main-red-color) !important;
+}
+.company_menu:hover .company_dropdown {
+    display: block;
+}
+.country_dropdown {
+    background-color: var(--off-white-color);
+    padding: 10px 20px;
+    position: absolute;
+    width: 20%;
+    margin-top: 30px;
+    box-shadow: 2px 0px 8px var(--shadow-color);
+    display: none;
+    z-index: 1000;
+}
+.country_items li {
+    display: block !important;
+    margin: 10px 0 !important;
+    padding: 10px 0 !important;
+}
+.country_items li:hover a {
+    padding: 0 !important;
+    color: var(--main-red-color) !important;
+}
+.country_menu:hover .country_dropdown {
+    display: block !important;
+}
+.mobile_left_icon {
+    display: none;
+}
+.mobile_left_icon ul {
+    list-style: none;
+}
+.mobile_left_icon ul li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+}
+.mobile_left_icon ul li:first-child {
+    padding-left: 0;
+}
+.nav_main_mobile a {
+    color: var(--black-color);
+}
+.hambar {
+    font-size: 30px !important;
+    font-weight: 800;
+}
+
+.responsive_menu_show {
+    background-color: var(--off-white-color);
+    position: fixed;
+    width: 80%;
+    padding-left: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 1100;
+    top: 0;
+    display: block;
+    border-right: 5px solid var(--black-color);
+}
+.responsive_menu_hide {
+    display: none;
+}
+.responsive_menu_show ul {
+    list-style: none;
+}
+.responsive_menu_show ul li {
+    padding: 10px 0;
+}
+.responsive_menu_show ul li a {
+    color: var(--black-color);
+}
+.mobile_company_show {
+    display: block;
+}
+.mobile_company_show ul {
+    margin-left: 20px;
+}
+.mobile_company_hide {
+    display: none;
+}
+.mobile_services_show {
+    display: block;
+}
+.mobile_services_show ul {
+    margin-left: 20px;
+}
+.mobile_services_hide {
+    display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .top_bar {
+        padding: 5px 20px;
+    }
+    .topbar_email {
+        display: block;
+        margin: auto;
+    }
+    .top_offer {
+        margin: auto;
+    }
+    .top_social {
+        display: none;
+    }
+    .main_bar {
+        padding: 10px 20px;
+    }
+    .nav_main_mobile {
+        display: none;
+    }
+    .menu_items {
+        display: none;
+    }
+    .searchIcon {
+        display: none !important;
+    }
+    .heartIcon {
+        display: none !important;
+    }
+    .mobile_left_icon {
+        display: block;
+    }
+    .bottom_bar {
+        display: block;
+    }
+}

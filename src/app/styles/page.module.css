@@ -1,0 +1,320 @@
+.hero_section {
+    padding: 0 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--main--deep-blue-color);
+    border-bottom-right-radius: 50% 100%;
+}
+.hero_section h1 {
+    font-size: 45px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.hero_section p {
+    font-size: 20px;
+    color: var(--white-color);
+}
+.hero_section a {
+    background-color: var(--main-red-color);
+    color: var(--white-color) !important;
+}
+.hero_section a:hover {
+    background-color: var(--main-blue-color);
+    color: var(--white-color) !important;
+}
+.second_section {
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.second_section .second_items_div {
+    background-color: var(--off-white-color);
+    padding: 20px;
+    margin: 20px 0;
+    height: 300px;
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+.second_section .second_items_div h4 {
+    margin-top: 10px;
+}
+.second_section .second_items_div .second_section_icon {
+    font-size: 50px;
+    margin-top: -70px;
+    padding: 10px;
+    border-radius: 50%;
+    background: var(--main-blue-color);
+    color: var(--white-color);
+}
+.second_section .second_items_div:hover .second_section_icon {
+    background: var(--main-red-color);
+}
+.second_section .second_items_div:hover {
+    box-shadow: 1px 3px 5px #dadada;
+}
+.admission_categ {
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.admission_categ h5 {
+    color: var(--main-red-color);
+}
+.admission_categ h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.admission_categ #admit_category{
+    outline: 2px dashed var(--gray-color);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100%;
+}
+#admit_categ_div {
+    margin-bottom: 15px;
+    position: relative;
+}
+#admit_categ_div #admit_category span {
+    font-size: 100px !important;
+    position: absolute;
+    z-index: -1;
+    font-weight: 800;
+    color: var(--gray-color);
+    opacity: .5;
+}
+#admit_btn a {
+    position: absolute;
+    bottom: 10px;
+}
+.admission_categ #admit_category:hover {
+    outline: 2px dashed var(--main-blue-color);
+}
+.admission_categ #admit_category ul li {
+    margin: 15px 0;
+}
+.admission_categ #admit_category a {
+    background-color: var(--main-red-color);
+    color: var(--white-color) !important;
+}
+.admission_categ #admit_category a:hover {
+    background-color: var(--main-blue-color);
+    color: var(--white-color) !important;
+}
+.third_section {
+    padding: 0px 30px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    background-color: var(--main-blue-color);
+}
+.third_section img {
+    border-radius: 5px;
+    position: relative;
+    outline: 2px solid var(--white-color);
+}
+.third_section img:hover {
+    outline: 2px solid var(--main-red-color);
+    transition: all .3s ease;
+}
+.third_section .third_features {
+    background-color: var(--white-color);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: -20px;
+    position: absolute;
+}
+.third_section img:hover .third_features {
+    background-color: var(--main-red-color) !important;
+}
+.third_section .third_features h4 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.forth_section {
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.forth_section h3 {
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.forth_section img {
+    width: 100%;
+    height: 400px !important;
+}
+
+.fifth_section {
+    padding: 40px 30px;
+    margin-top: 50px;
+    background-color: var(--main-blue-color);
+}
+.fifth_section .numberDiv {
+    text-align: center;
+    background-color: var(--main--deep-blue-color);
+    padding: 20px;
+    margin: 15px 0;
+    color: var(--white-color);
+    border-radius: 10px;
+}
+.fifth_section .numberDiv h4 {
+    font-size: 35px;
+}
+
+.sixth_section {
+    margin-top: 50px;
+}
+.sixth_section h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.sixth_section h5 {
+    font-size: 25px;
+}
+.sixth_section a {
+    color: var(--main-red-color) !important;
+}
+.sixth_section a:hover {
+    color: var(--main--deep-blue-color) !important;
+}
+
+.seven_section {
+    margin-top: 50px;
+}
+.seven_section h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.seven_section h4 {
+    font-size: 20px;
+}
+.seven_section img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.seven_section a {
+    color: var(--main-red-color) !important;
+}
+.seven_section a:hover {
+    color: var(--main--deep-blue-color) !important;
+}
+
+.testimonial_section {
+    padding: 0 30px;
+    margin-top: 40px;
+}
+.testimonial_section h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.home_blog {
+    padding: 0 30px;
+    margin-top: 40px;
+}
+.home_blog h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.home_blog a {
+    background-color: var(--main-red-color);
+    color: var(--white-color) !important;
+}
+.home_blog a:hover {
+    background-color: var(--main-blue-color);
+    color: var(--white-color) !important;
+}
+.blog_date p{
+    font-size: 14px;
+}
+.blog_author p{
+    font-size: 14px;
+}
+.partner_section {
+    padding: 0 30px;
+    margin-top: 50px;
+}
+.partner_section h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .hero_section {
+        padding: 0 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .hero_section h1 {
+        font-size: 30px;
+    }
+    .hero_section p {
+        font-size: 18px;
+    }
+    .homeSliderSwiper .slider_content h2 {
+        font-size: 25px;
+    }
+    .homeSliderSwiper .slider_content p {
+        font-size: 16px;
+    }
+    .homeSliderSwiper .slider_content a {
+        margin-top: 10px;
+    }
+    .second_section {
+        padding: 0 10px;
+    }
+    .second_section .second_items_div {
+        height: auto !important;
+    }
+    .admission_categ h5 {
+        font-size: 18px;
+    }
+    .admission_categ h2 {
+        font-size: 30px;
+    }
+    .admission_categ {
+        padding: 0 10px;
+    }
+    .third_section {
+        padding: 0 10px;
+        padding-bottom: 60px;
+    }
+    .third_section img {
+        margin-top: 50px;
+    }
+    
+    .forth_section {
+        padding: 0 10px;
+    }
+    .fifth_section {
+        padding: 30px 10px;
+    }
+    .sixth_section h2 {
+        margin-top: 20px;
+        font-size: 30px;
+    } 
+    .sixth_section h5 {
+        font-size: 22px;
+    }
+    .seven_section {
+        display: none;
+    }
+    .seven_section img {
+        border-radius: 5px;
+    }
+    .testimonial_section {
+        padding: 0 10px;
+    }
+    .home_blog {
+        padding: 0 10px;
+    }
+    .home_blog h2 {
+        font-size: 30px;
+    }
+    .home_blog #blog_Cart {
+        margin-bottom: 20px !important;
+    }
+    .partner_section {
+        padding: 0 10px;
+    }
+}

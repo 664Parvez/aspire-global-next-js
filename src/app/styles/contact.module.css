@@ -1,0 +1,49 @@
+.first_section {
+    padding: 0 30px;
+    margin-top: 40px;
+}
+.first_section h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+.first_section label span {
+    color: var(--main-red-color) !important;
+}
+.first_section h3 {
+    font-weight: 600;
+}
+.first_section h4 {
+    font-style: italic;
+    color: var(--main-red-color);
+}
+.first_section h1 span {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+}
+.first_section .contact_details {
+    margin-top: 40px;
+}
+.first_section button {
+    background-color: var(--main-red-color);
+    color: var(--white-color);
+}
+.first_section button:hover {
+    color: var(--white-color);
+    background-color: var(--main-blue-color);
+}
+.second_section {
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .first_section {
+        padding: 0 10px;
+    }
+    .first_section h1 {
+        font-size: 40px;
+    }
+    .first_section h3 {
+        margin-top: 30px;
+    }
+}

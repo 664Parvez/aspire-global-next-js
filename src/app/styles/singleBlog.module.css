@@ -1,0 +1,26 @@
+.singleBlogPage {
+    padding: 0 30px;
+}
+#title_section h1 {
+    color: var(--main-red-color);
+    margin-bottom: 30px;
+}
+
+.first_section {
+    padding: 30px;
+    box-shadow: 2px 6px 9px var(--shadow-color);
+    border-radius: 10px;
+}
+
+.singleBlogRight {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .singleBlogPage {
+        padding: 0 10px;
+    }
+    .first_section {
+        padding: 20px 10px !important;
+    }
+}

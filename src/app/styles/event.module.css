@@ -1,0 +1,47 @@
+.first_section {
+    margin-top: 50px;
+}
+.first_section h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.first_section h4 {
+    font-size: 20px;
+}
+.first_section img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.first_section a {
+    color: var(--main-red-color) !important;
+}
+.first_section a:hover {
+    color: var(--main--deep-blue-color) !important;
+}
+
+.second_section {
+    margin-top: 70px;
+}
+.second_section h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.second_section img {
+    border-radius: 5px;
+}
+.second_section a {
+    color: var(--main-red-color) !important;
+}
+.second_section a:hover {
+    color: var(--main--deep-blue-color) !important;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .first_section {
+        display: none;
+    }
+    .second_section {
+        margin-top: 30px;
+    }
+}

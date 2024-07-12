@@ -1,0 +1,24 @@
+.first_section {
+    margin-top: 50px;
+    text-align: center;
+}
+.second_section {
+    margin-top: 50px;
+}
+.second_section label span {
+    color: var(--main-red-color);
+}
+.second_section button {
+    background-color: var(--main-red-color);
+    color: var(--white-color);
+}
+.second_section button:hover {
+    background-color: var(--main-blue-color);
+    color: var(--white-color);
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .first_section {
+        margin-top: 20px;
+    }
+}
