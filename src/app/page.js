@@ -97,7 +97,7 @@ export default function Home() {
                 <FaHandshakeAngle className={homeCss.second_section_icon} />
               </div>
               <h4>End-to-End Services</h4>
-              <p>Embark on a seamless journey with Aspire Global Pathways' End-to-End Services. Our team provides comprehensive support customized to your academic and career requirements, assisting you at each stage of your path. </p>
+              <p>Embark on a seamless journey with Aspire Global Pathways End-to-End Services. Our team provides comprehensive support customized to your academic and career requirements, assisting you at each stage of your path. </p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6">

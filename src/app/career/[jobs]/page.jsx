@@ -25,10 +25,11 @@ const Jobs = ({ params }) => {
         <>
             <h2>{params.jobs}</h2>
             {
-                jobs.filter((data) => {
+                jobs.filter((data, index = index + 1) => {
                     if (data.name === params.jobs) {
-                        
-                        <h5>{data.position}</h5>
+                        <div key={index}>
+                            <h5>{data.position}</h5>
+                        </div>
                     }
                 })
             }

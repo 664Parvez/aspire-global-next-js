@@ -33,9 +33,9 @@ const career = () => {
                     jobs.length > 0 ?
                         <div className="row justify-content-center">
                             {
-                                jobs.map((data) => {
+                                jobs.map((data, index = index + 1) => {
                                     return (
-                                            <div className="col-lg-4 mt-3">
+                                            <div className="col-lg-4 mt-3" key={index}>
                                                 <Link href={`/career/${data.slag}`}>
                                                     <div className={careerCss.careerJobs}>
                                                         <h3>{data.name}</h3>
