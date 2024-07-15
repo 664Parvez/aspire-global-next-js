@@ -15,9 +15,9 @@ const About = () => {
                     <div className="col-lg-6 col-md-6">
                         <p>Welcome to Aspire Global Pathways, a leading representative of higher education providers. Based in London, UK, we are dedicated to helping students from around the world navigate their educational journey and achieve their academic goals.</p>
 
-                        <p>At Aspire Global Pathways, we understand the importance of making informed decisions when it comes to pursuing higher education. With the ever-changing landscape of global education, students need reliable guidance and support to make the best choices for their future. That's where we come in.</p>
+                        <p>At Aspire Global Pathways, we understand the importance of making informed decisions when it comes to pursuing higher education. With the ever-changing landscape of global education, students need reliable guidance and support to make the best choices for their future. Thats where we come in.</p>
 
-                        <p>Our team of experienced professionals is committed to providing comprehensive student counseling services to individuals from all corners of the globe. We believe that every student deserves access to world-class education and the opportunity to explore their potential. By offering personalized guidance tailored to each student's unique needs, we aim to empower aspiring learners to seize the countless opportunities available in the international education arena.</p>
+                        <p>Our team of experienced professionals is committed to providing comprehensive student counseling services to individuals from all corners of the globe. We believe that every student deserves access to world-class education and the opportunity to explore their potential. By offering personalized guidance tailored to each students unique needs, we aim to empower aspiring learners to seize the countless opportunities available in the international education arena.</p>
                     </div>
                     <div className="col-lg-6 col-md-6">
                         <Image layout="responsive" src={about_one} alt=""/>
@@ -45,7 +45,7 @@ const About = () => {
                     <div className="col-lg-7 col-md-6">
                         <div className={aboutCss.forth_left}>
                             <h5>WHAT WE OFFER</h5>
-                            <h2>Consult with Bangladesh's Best Educational Consultants.</h2>
+                            <h2>Consult with Bangladesh Best Educational Consultants.</h2>
                             <p className="mt-4">Talent Pro Education is your Top Choice for Admission Consulting in Bangladesh. With a 90-95% Admission Approval Rate, we simplify the process for students aiming to study abroad. As representatives of 50+ esteemed institutions worldwide, we ensure diverse opportunities for international students.</p>
                             <ul className="mt-4">
                                 <li>Research and eligibility check.</li>
