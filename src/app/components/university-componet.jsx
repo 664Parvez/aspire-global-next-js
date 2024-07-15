@@ -77,7 +77,7 @@ const UniversityComponent = (props) => {
             }
 
             <div className={destinationCss.third_section}>
-                <h2 className="text-center">Student's Speak</h2>
+                <h2 className="text-center">Students Speak</h2>
                 <div className="container mt-5">
                     <div className={destinationCss.student_video}>
                         <div className="row">
