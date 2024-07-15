@@ -1,9 +1,16 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
+import { usePathname } from "next/navigation" 
 import destinationCss from "../styles/destinations.module.css"
 
 
 const UniversityComponent = (props) => {
+
+    const pathname = usePathname()
+    console.log(pathname)
+
     return (
         <>
             <div className={destinationCss.first_section}>
@@ -52,6 +59,22 @@ const UniversityComponent = (props) => {
                     </div>
                 </div>
             </div>
+
+            {
+                pathname === "/services/study-in-asia" ? 
+                
+                <div className="text-center mt-5">
+                    <h3>Asia Countries</h3>
+                </div> : ""
+            }
+
+            {
+                pathname === "/services/study-in-europe" ?
+
+                <div className="text-center mt-5">
+                    <h3>Europ Countries</h3>
+                </div> : ""
+            }
 
             <div className={destinationCss.third_section}>
                 <h2 className="text-center">Student's Speak</h2>

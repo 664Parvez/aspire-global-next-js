@@ -43,7 +43,7 @@ export default function Home() {
     <div className={homeCss.hero_section}>
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-6">
-          <h1>We are bringing overseas education within everyone’s reach</h1>
+          <h1>We are bringing overseas education within everyones reach</h1>
           <p className="my-5">Our Tech-enabled solutions help international students and recruitment partners choose the best global universities</p>
           <Link href="/book-now" className="btn btn-lg">Enquire Now</Link>
         </div>
@@ -123,7 +123,7 @@ export default function Home() {
               <span>01</span>
               <h4>Masters Program</h4>
               <ul className="mt-4">
-                <li><FaArrowUpRightFromSquare /> Bachelor's degree</li>
+                <li><FaArrowUpRightFromSquare /> Bachelors degree</li>
                 <li><FaArrowUpRightFromSquare /> Minimum GPA</li>
                 <li><FaArrowUpRightFromSquare /> GRE/GMAT scores (depending on program)</li>
                 <li><FaArrowUpRightFromSquare /> English language proficiency (TOEFL or IELTS)</li>
@@ -143,7 +143,7 @@ export default function Home() {
               <span>02</span>
               <h4>Pre-Masters Program</h4>
               <ul className="mt-4">
-                <li><FaArrowUpRightFromSquare /> Bachelor's degree</li>
+                <li><FaArrowUpRightFromSquare /> Bachelors degree</li>
                 <li><FaArrowUpRightFromSquare /> Minimum GPA</li>
                 <li><FaArrowUpRightFromSquare /> English language proficiency (TOEFL or IELTS)</li>
                 <li><FaArrowUpRightFromSquare /> Statement of purpose</li>
@@ -238,9 +238,9 @@ export default function Home() {
               <h3>ABOUT ASPIRE GLOBAL PATHWAYS</h3>
               <p className="mb-3">Welcome to Aspire Global Pathways, a leading representative of higher education providers. Based in London, UK, we are dedicated to helping students from around the world navigate their educational journey and achieve their academic goals.</p>
 
-              <p className="mb-3">At Aspire Global Pathways, we understand the importance of making informed decisions when it comes to pursuing higher education. With the ever-changing landscape of global education, students need reliable guidance and support to make the best choices for their future. That's where we come in.</p>
+              <p className="mb-3">At Aspire Global Pathways, we understand the importance of making informed decisions when it comes to pursuing higher education. With the ever-changing landscape of global education, students need reliable guidance and support to make the best choices for their future. Thats where we come in.</p>
 
-              <p className="mb-3">Our team of experienced professionals is committed to providing comprehensive student counseling services to individuals from all corners of the globe. We believe that every student deserves access to world-class education and the opportunity to explore their potential. By offering personalized guidance tailored to each student's unique needs, we aim to empower aspiring learners to seize the countless opportunities available in the international education arena.</p>
+              <p className="mb-3">Our team of experienced professionals is committed to providing comprehensive student counseling services to individuals from all corners of the globe. We believe that every student deserves access to world-class education and the opportunity to explore their potential. By offering personalized guidance tailored to each students unique needs, we aim to empower aspiring learners to seize the countless opportunities available in the international education arena.</p>
             </div>
             <div className="col-lg-5 col-md-6">
               <Image src={aboutImg} layout="responsive" alt=""/>
@@ -511,7 +511,7 @@ export default function Home() {
 
       <div className={homeCss.partner_section}>
         <h2 className="mt-5">Aspire Global eminent university tie-ups</h2>
-        <p className="mb-4">We represent 65 of World’s Top 300 Universities according to QS World Rankings 2024</p>
+        <p className="mb-4">We represent 65 of World Top 300 Universities according to QS World Rankings 2024</p>
         <Swiper
           effect={'coverflow'}
           grabCursor={true}
